@@ -12,7 +12,7 @@ The Unsolved Files is an innovative web application that uses artificial intelli
 
 **Technologies Used:**
 
--   **Frontend:** React, Next.js
+-   **Frontend:** React
 -   **Backend:** Node.js, Express.js
 -   **APIs:** News API, Midjourney API, Gemini API, D-Id API
 -   **Database:** SQLite

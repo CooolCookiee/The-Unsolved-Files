@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100%;
+  min-height: '100vh', 
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1rem 4rem;
+}
+
+.news-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 300px;
+}
+
+.news-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: black; 
+  color: white;
+}
+
+.connect-apps a {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+nav ul li {
+  transition: background-color 0.3s;
+  padding: 0.5rem;
+}
+
+nav ul li:hover {
+  background-color: red;
+}
+
+
